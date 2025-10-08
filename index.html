@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Ai Prédictions</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>⚽ Smart Ai Prédictions</h1>
+  <p>Enter your match statistics below to get predictions from our AI model.</p>
+
+  <div class="inputs">
+    <input type="number" id="f1" placeholder="Team 1 goals" />
+    <input type="number" id="f2" placeholder="Team 2 goals" />
+    <input type="number" id="f3" placeholder="Shots on target" />
+    <input type="number" id="f4" placeholder="Corners" />
+  </div>
+
+  <button onclick="predict()">Predict Result</button>
+  <div id="result"></div>
+
+  <section class="next-steps">
+    <h2>🔮 Next Steps</h2>
+    <ul>
+      <li>Train real AI models using XGBoost / TensorFlow.</li>
+      <li>Improve UI to an “AI Predictor Dashboard”.</li>
+      <li>Enable self-training system directly inside Replit.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Smart Ai Prédictions - by Adil Boumah<br>
+    📞 +212600999950 | <a href="https://t.me/TheBestCorrectScore" target="_blank">Telegram Channel</a></p>
+  </footer>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
